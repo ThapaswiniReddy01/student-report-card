@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from models import Student, GradeManager
 
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__)
 manager = GradeManager()
 
 @app.route('/')
@@ -37,4 +37,5 @@ def delete_student(student_id):
 
 if __name__ == '__main__':
     app.run(debug=False)
+
 
