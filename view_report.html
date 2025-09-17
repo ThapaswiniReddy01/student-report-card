@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>{{ student.name }}'s Report</h3>
+<table class="table">
+  <tr><th>Subject</th><th>Score</th></tr>
+  {% for sub, score in student.subjects.items() %}
+  <tr><td>{{ sub }}</td><td>{{ score }}</td></tr>
+  {% endfor %}
+</table>
+<p><strong>Average:</strong> {{ "%.2f"|format(student.calculate_average()) }}</p>
+<p><strong>Grade:</strong> {{ student.get_grade() }}</p>
+<a href="{{ url_for('index') }}" class="btn btn-primary">Back</a>
+{% endblock %}

@@ -1,0 +1,52 @@
+[
+    {
+        "id": "c42bc334",
+        "name": "Varsha",
+        "subjects": {
+            "NLP": 98.0,
+            "DL": 88.0,
+            "CSE": 83.0,
+            "CV": 80.0
+        }
+    },
+    {
+        "id": "04e648a6",
+        "name": "Niha",
+        "subjects": {
+            "NLP": 94.0,
+            "DL": 95.0,
+            "CSE": 96.0,
+            "CV": 98.0
+        }
+    },
+    {
+        "id": "e424a096",
+        "name": "Shruthi",
+        "subjects": {
+            "NLP": 76.0,
+            "DL": 73.0,
+            "CSE": 68.0,
+            "CV": 65.0
+        }
+    },
+    {
+        "id": "c897fc13",
+        "name": "Neha",
+        "subjects": {
+            "NLP": 50.0,
+            "DL": 62.0,
+            "CSE": 48.0,
+            "CV": 35.0
+        }
+    },
+    {
+        "id": "10aebf44",
+        "name": "Purna",
+        "subjects": {
+            "NLP": 78.0,
+            "DL": 65.0,
+            "CSE": 84.0,
+            "CV": 100.0
+        }
+    }
+]
